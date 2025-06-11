@@ -1,0 +1,79 @@
+{
+  "dialog": {
+    "error": "Error",
+    "close": "Close",
+    "connecting": "Connecting",
+    "logs_console": "Logs & Console",
+    "back": "Back",
+    "continue": "Continue",
+    "port_not_readable": "Serial port is not readable/writable. Close any other application using it and try again."
+  },
+  "button": {
+    "connect": "Connect",
+    "not_allowed": "You can only install ESP devices on HTTPS websites or on the localhost.",
+    "unsupported": "Your browser does not support installing things on ESP devices. Use Google Chrome or Microsoft Edge."
+  },
+  "dashboard": {
+    "connected_to": "Connected to",
+    "install": "Install",
+    "erase_user_data": "Erase User Data",
+    "configure_wifi": "Configure Wi-Fi",
+    "view_logs": "View Logs",
+    "visit_device": "Visit Device",
+    "fund_development": "Fund Development",
+    "add_to_ha": "Add to Home Assistant"
+  },
+  "install": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "erase_warning": "This will erase all data on your device!",
+    "installing": "Installing",
+    "finished": "Installation Finished"
+  },
+  "network": {
+    "title": "Network",
+    "network_name": "Network Name",
+    "success": "Successfully connected to the network!",
+    "scanning": "Scanning for networks",
+    "connect": "Connect",
+    "password": "Password",
+    "unable_to_connect": "Unable to connect",
+    "timeout": "Timeout",
+    "unknown_error": "Unknown error",
+    "skip": "Skip",
+    "connect_intro": "Connect your device to the network to start using it."
+  },
+  "wifi": {
+    "title": "Configure Wi-Fi",
+    "ssid": "Wi-Fi Network",
+    "connect_to_wifi": "Connect to Wi-Fi",
+    "change_wifi": "Change Wi-Fi",
+    "connecting": "Connecting to Wi-Fi",
+    "success": "Successfully connected to Wi-Fi",
+    "refresh": "Refresh Networks",
+    "join_other": "Join other…"
+  },
+  "logs": {
+    "title": "Device Logs",
+    "download": "Download Logs",
+    "reset_device": "Reset Device"
+  },
+  "no_port": {
+    "title": "No port selected",
+    "intro": "If you didn't select a port because you didn't see your device listed, try the following steps:",
+    "step1": "Make sure that the device is connected to this computer (the one that runs the browser that shows this website)",
+    "step2": "Most devices have a tiny light when it is powered on. If yours has one, make sure it is on.",
+    "step3": "Make sure that the USB cable you use can be used for data and is not a power-only cable.",
+    "step4_linux": "If you are using a Linux flavor, make sure that your user is part of the dialout group so it has permission to access the device.",
+    "step4_linux_cmd": "sudo usermod -a -G dialout YourUserName",
+    "step4_linux_note": "You may need to log out & back in or reboot to activate the new group access.",
+    "step5": "Make sure you have the right drivers installed. Below are the drivers for common chips used in ESP devices:",
+    "driver_cp2102": "CP2102 drivers:",
+    "driver_ch34x": "CH342, CH343, CH9102 drivers:",
+    "driver_ch340": "CH340, CH341 drivers:",
+    "download_note": "download via blue button with icon",
+    "cancel": "Cancel",
+    "try_again": "Try Again",
+    "close": "Close"
+  }
+}
