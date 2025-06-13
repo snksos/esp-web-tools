@@ -75,5 +75,19 @@
     "cancel": "Cancel",
     "try_again": "Try Again",
     "close": "Close"
+  },
+  "flash": {
+    "initializing": "Initializing...",
+    "initialized": "Initialized. Found {chipFamily}",
+    "not_supported": "Your {chipFamily} board is not supported.",
+    "preparing": "Preparing installation...",
+    "preparation_complete": "Installation prepared",
+    "erasing": "Erasing device...",
+    "erased": "Device erased",
+    "writing_progress": "Writing progress: {percentage}%",
+    "writing_complete": "Writing complete",
+    "failed_initialize": "Failed to initialize. Try resetting your device or holding the BOOT button while clicking INSTALL.",
+    "failed_download": "Downloading firmware {path} failed: {status}",
+    "all_done": "All done!"
   }
 }

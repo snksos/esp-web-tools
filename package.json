@@ -1,11 +1,15 @@
 {
   "name": "esp-web-tools-plus",
-  "version": "10.1.6",
+  "version": "10.1.8",
   "description": "Web tools for ESP devices",
   "main": "dist/install-button.js",
   "repository": "https://github.com/esphome/esp-web-tools",
   "author": "ESPHome maintainers",
   "license": "Apache-2.0",
+  "files": [
+    "dist/",
+    "LICENSE"
+  ],
   "scripts": {
     "prepublishOnly": "script/build",
     "dev": "script/dev"

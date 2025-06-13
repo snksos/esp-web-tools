@@ -2,10 +2,10 @@
   "dialog": {
     "error": "错误",
     "close": "关闭",
-    "connecting": "连接中",
-    "logs_console": "日志 & 控制台",
     "back": "返回",
     "continue": "继续",
+    "logs_console": "日志与控制台",
+    "connecting": "连接中",
     "port_not_readable": "串口不可读/写。请关闭任何其他使用它的应用程序，然后重试。"
   },
   "button": {
@@ -13,68 +13,82 @@
     "not_allowed": "您只能在HTTPS网站或本地主机上安装ESP设备。",
     "unsupported": "您的浏览器不支持在ESP设备上安装程序。请使用Google Chrome或Microsoft Edge。"
   },
+  "install": {
+    "installing": "安装中",
+    "finished": "安装完成！",
+    "erase_warning": "警告：擦除选项将删除设备上的所有数据，包括WiFi配置！",
+    "cancel": "取消",
+    "confirm": "确认"
+  },
   "dashboard": {
     "connected_to": "已连接到",
-    "install": "安装",
+    "install": "安装固件",
     "erase_user_data": "擦除用户数据",
     "configure_wifi": "配置Wi-Fi",
     "view_logs": "查看日志",
     "visit_device": "访问设备",
-    "fund_development": "支持开发",
+    "fund_development": "赞助开发",
     "add_to_ha": "添加到Home Assistant"
   },
-  "install": {
-    "confirm": "确认",
-    "cancel": "取消",
-    "erase_warning": "这将擦除您设备上的所有数据！",
-    "installing": "安装中",
-    "finished": "安装完成"
+  "wifi": {
+    "title": "WiFi设置",
+    "ssid": "WiFi网络",
+    "connect_to_wifi": "连接到WiFi",
+    "change_wifi": "更改WiFi设置",
+    "connecting": "正在连接WiFi",
+    "success": "WiFi连接成功",
+    "refresh": "刷新网络",
+    "join_other": "连接其他网络"
   },
   "network": {
     "title": "网络",
     "network_name": "网络名称",
-    "success": "成功连接到网络！",
-    "scanning": "正在扫描网络",
-    "connect": "连接",
     "password": "密码",
-    "unable_to_connect": "无法连接",
-    "timeout": "连接超时",
-    "unknown_error": "未知错误",
+    "scanning": "扫描网络中",
+    "connecting": "连接中",
+    "connect": "连接",
+    "connect_intro": "请选择一个WiFi网络或输入网络详情",
+    "success": "网络连接成功！",
     "skip": "跳过",
-    "connect_intro": "将您的设备连接到网络以开始使用"
-  },
-  "wifi": {
-    "title": "配置Wi-Fi",
-    "ssid": "Wi-Fi网络",
-    "connect_to_wifi": "连接到Wi-Fi",
-    "change_wifi": "更改Wi-Fi",
-    "connecting": "正在连接Wi-Fi",
-    "success": "已成功连接到Wi-Fi",
-    "refresh": "刷新网络",
-    "join_other": "连接其他网络...",
-    "connect_intro": "将您的设备连接到网络以开始使用"
+    "unable_to_connect": "无法连接到网络",
+    "timeout": "连接超时",
+    "unknown_error": "未知错误"
   },
   "logs": {
     "title": "设备日志",
-    "download": "下载日志",
-    "reset_device": "重置设备"
+    "reset_device": "重置设备",
+    "download": "下载日志"
   },
   "no_port": {
-    "title": "未选择端口",
-    "intro": "如果您没有选择端口是因为没有看到您的设备列表，请尝试以下步骤：",
-    "step1": "确保设备已连接到此计算机（运行显示此网站的浏览器的计算机）",
-    "step2": "大多数设备在通电时都有一个小指示灯。如果您的设备有指示灯，请确保它亮着。",
-    "step3": "确保您使用的USB线可用于数据传输，而不仅仅是充电线。",
-    "step4_linux": "如果您使用的是Linux系统，请确保您的用户属于dialout组，以便有权限访问设备。",
-    "step4_linux_cmd": "sudo usermod -a -G dialout 您的用户名",
-    "step4_linux_note": "您可能需要注销并重新登录或重启系统以激活新的组访问权限。",
-    "step5": "确保您已安装正确的驱动程序。以下是ESP设备常用芯片的驱动程序：",
-    "driver_cp2102": "CP2102驱动：",
-    "driver_ch34x": "CH342、CH343、CH9102驱动：",
-    "driver_ch340": "CH340、CH341驱动：",
-    "download_note": "通过带图标的蓝色按钮下载",
+    "title": "未选择串口",
+    "intro": "未能自动选择串口，请按照以下步骤操作：",
+    "step1": "确保您的设备已通过USB连接到计算机",
+    "step2": "确保设备处于下载模式（大多数ESP设备需要按住BOOT按钮然后按RESET按钮）",
+    "step3": "确保您的浏览器支持Web Serial API（Chrome、Edge、Opera）",
+    "step4_linux": "在Linux系统上，您可能需要添加udev规则以获取串口访问权限：",
+    "step4_linux_cmd": "sudo usermod -a -G dialout $USER",
+    "step4_linux_note": "添加规则后，您需要重新登录或重启计算机",
+    "step5": "如果您的设备未被识别，可能需要安装USB驱动程序：",
+    "driver_cp2102": "Silicon Labs CP2102驱动：",
+    "driver_ch34x": "WCH CH34x驱动：",
+    "driver_ch340": "WCH CH340驱动：",
+    "download_note": "点击下载按钮",
     "cancel": "取消",
     "try_again": "重试",
     "close": "关闭"
+  },
+  "flash": {
+    "initializing": "初始化中...",
+    "initialized": "初始化完成。发现 {chipFamily}",
+    "not_supported": "您的 {chipFamily} 开发板不受支持。",
+    "preparing": "准备安装...",
+    "preparation_complete": "安装准备就绪",
+    "erasing": "正在擦除设备...",
+    "erased": "设备已擦除",
+    "writing_progress": "写入进度: {percentage}%",
+    "writing_complete": "写入完成",
+    "failed_initialize": "初始化失败。请尝试重置设备或在点击安装时按住BOOT按钮。",
+    "failed_download": "下载固件 {path} 失败: {status}",
+    "all_done": "全部完成！"
   }
 }
