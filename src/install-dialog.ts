@@ -96,7 +96,7 @@ export class EwtInstallDialog extends LitElement {
       if (this._error) {
         [heading, content] = this._renderError(this._error);
       } else {
-        content = this._renderProgress("Connecting");
+        content = this._renderProgress(i18n.t("dialog.connecting"));
       }
     } else if (this._state === "INSTALL") {
       [heading, content, allowClosing] = this._renderInstall();
@@ -269,7 +269,7 @@ export class EwtInstallDialog extends LitElement {
             }}
           >
             ${listItemInstallIcon}
-            <div slot="headline">${`Install ${this._manifest.name}`}</div>
+            <div slot="headline">${i18n.t("install.install")} ${this._manifest.name}</div>
           </ew-list-item>
           <ew-list-item
             type="button"

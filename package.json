@@ -1,6 +1,6 @@
 {
   "name": "esp-web-tools-plus",
-  "version": "10.1.9",
+  "version": "10.2.0",
   "description": "Web tools for ESP devices",
   "main": "dist/install-button.js",
   "repository": "https://github.com/esphome/esp-web-tools",

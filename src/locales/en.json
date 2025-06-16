@@ -34,7 +34,7 @@
     "installing": "Installing",
     "finished": "Installation Finished",
     "erase_device": "Erase Device",
-    "erase_device_warning": "Do you want to erase the device before installing {name}? All data on the device will be lost.",
+    "erase_device_warning": "Do you want to erase the device before installing {{name}}? All data on the device will be lost.",
     "confirm_installation": "Confirm Installation",
     "update_to": "Update to",
     "install": "Install",
@@ -44,10 +44,10 @@
     "all_data_on_the_device_will_be_erased": "All data on the device will be erased.",
     "preparing_installation": "Preparing installation",
     "erasing": "Erasing",
-    "writing_progress": "Writing progress: {percentage}%",
+    "writing_progress": "Writing progress: {{percentage}}%",
     "writing_complete": "Writing complete",
     "wrapping_up": "Wrapping up",
-    "this_will_take": "This will take {time}.",
+    "this_will_take": "This will take {{time}}.",
     "keep_this_page_visible": "Keep this page visible to prevent slow down",
     "installation_complete": "Installation complete!",
     "installation_failed": "Installation failed"
@@ -101,16 +101,16 @@
   },
   "flash": {
     "initializing": "Initializing...",
-    "initialized": "Initialized. Found {chipFamily}",
-    "not_supported": "Your {chipFamily} board is not supported.",
+    "initialized": "Initialized. Found {{chipFamily}}",
+    "not_supported": "Your {{chipFamily}} board is not supported.",
     "preparing": "Preparing installation...",
     "preparation_complete": "Installation prepared",
     "erasing": "Erasing device...",
     "erased": "Device erased",
-    "writing_progress": "Writing progress: {percentage}%",
+    "writing_progress": "Writing progress: {{percentage}}%",
     "writing_complete": "Writing complete",
     "failed_initialize": "Failed to initialize. Try resetting your device or holding the BOOT button while clicking INSTALL.",
-    "failed_download": "Downloading firmware {path} failed: {status}",
+    "failed_download": "Downloading firmware {{path}} failed: {{status}}",
     "all_done": "All done!"
   }
 }
