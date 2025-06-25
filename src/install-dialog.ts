@@ -147,7 +147,7 @@ export class EwtInstallDialog extends LitElement {
       <div slot="content">
         <ew-list>
           <ew-list-item>
-            <div slot="headline">Connected to ${this._info!.name}</div>
+            <div slot="headline">${i18n.t("dashboard.connected_to")} ${this._info!.name}</div>
             <div slot="supporting-text">
               ${this._info!.firmware}&nbsp;${this._info!.version} (${this._info!.chipFamily})
             </div>
@@ -591,7 +591,7 @@ export class EwtInstallDialog extends LitElement {
   }
 
   _renderLogs(): [string | undefined, TemplateResult] {
-    let heading: string | undefined = `Logs`;
+    let heading: string | undefined = i18n.t("dialog.logs");
     let content: TemplateResult;
 
     content = html`

@@ -5,6 +5,7 @@
     "back": "返回",
     "continue": "继续",
     "next": "下一步",
+    "logs": "日志",
     "logs_console": "日志与控制台",
     "connecting": "连接中",
     "port_not_readable": "串口不可读/写。请关闭任何其他使用它的应用程序，然后重试。",

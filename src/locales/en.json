@@ -3,6 +3,7 @@
     "error": "Error",
     "close": "Close",
     "connecting": "Connecting",
+    "logs": "Logs",
     "logs_console": "Logs & Console",
     "back": "Back",
     "continue": "Continue",
