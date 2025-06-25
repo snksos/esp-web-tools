@@ -545,7 +545,7 @@ export class EwtInstallDialog extends LitElement {
           ${undeterminateLabel ? html`${undeterminateLabel}<br />` : ""}
           <br />
           ${i18n.t("install.this_will_take", {
-            time: this._installState.chipFamily === "ESP8266" ? "a minute" : "2 minutes",
+            time: this._installState.chipFamily === "ESP8266" ? "1" : "2",
           })}<br />
           ${i18n.t("install.keep_this_page_visible")}
         `,

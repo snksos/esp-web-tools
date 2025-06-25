@@ -37,7 +37,7 @@
     "writing_progress": "写入进度: {{percentage}}%",
     "writing_complete": "写入完成",
     "wrapping_up": "唤醒中",
-    "this_will_take": "这将需要 {{time}}。",
+    "this_will_take": "这将需要 {{time}} 分钟",
     "keep_this_page_visible": "保持此页面可见以防止卡顿",
     "installation_complete": "安装完成！",
     "installation_failed": "安装失败"
@@ -78,7 +78,7 @@
   },
   "logs": {
     "title": "设备日志",
-    "reset_device": "重置设备",
+    "reset_device": "重启设备",
     "download": "下载日志"
   },
   "no_port": {

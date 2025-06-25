@@ -47,7 +47,7 @@
     "writing_progress": "Writing progress: {{percentage}}%",
     "writing_complete": "Writing complete",
     "wrapping_up": "Wrapping up",
-    "this_will_take": "This will take {{time}}.",
+    "this_will_take": "This will take {{time}} minutes",
     "keep_this_page_visible": "Keep this page visible to prevent slow down",
     "installation_complete": "Installation complete!",
     "installation_failed": "Installation failed"
